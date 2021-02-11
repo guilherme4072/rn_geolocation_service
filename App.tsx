@@ -11,7 +11,7 @@ import { Container,
        TextBtn,
        TextResultGPS } from './styles'
 
-const App = () => {
+const App: React.FC = () => {
   const [ position, setPosition ] = useState([
     {name: "Latitude", value: 0},
     {name: "Longitude", value: 0},
